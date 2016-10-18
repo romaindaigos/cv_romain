@@ -1,0 +1,177 @@
+*{
+	font-family: "Proza Libre", sans-serif;
+
+	/*Afficher border box*/
+	border: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+body{
+	background-image: url("images/fondgris2.jpg");
+}
+
+ul li {
+	background-color:  #46ABE2;
+	letter-spacing: 2px;
+	display: inline-block;
+	text-transform: uppercase;
+	color: white;
+	margin: auto;
+	padding: 5px 81px;
+	font-size: 30px;
+}
+
+h2{
+	padding-left: 80px;
+}
+
+.navigation{
+	margin-left: 260px;
+}
+
+#espace {
+	height: 30px;
+}
+
+/*Page de présentation*/
+
+.prenom {
+	display: inline-block;
+	font-size: 20px;
+}
+
+#inside {
+	letter-spacing: 3px;
+	color: #46ABE2;
+	font-style: italic;
+	font-size: 25px;
+	margin-left: 60px;
+}
+
+.contact_box{
+	border-radius: 100%;
+	background-color: #46ABE2;
+	display: inline-block;
+	padding: 20px;
+	margin-left: 600px;
+	margin-top: 90px;
+	margin-bottom: 50px;
+	margin-right: 1px;
+}
+
+.contact_box:hover {
+  background-color: white;
+  cursor: pointer;
+}
+
+#contact{
+	color: white;
+	margin: auto;
+	padding: auto;
+	font-size: 40px;
+}
+
+#contact-mail{
+	font-size: 10px;
+	color: #46ABE2;
+}
+
+#romain_daigmorte {
+	padding-left: 20px;
+	font-style: bold;
+}
+
+/*Texte bannière*/
+
+.texte_banniere {
+  position: relative;
+  text-align: center;
+  background-color: white;
+  opacity: 0.7;
+  margin-left: 700px;
+  top: 10%;
+  width: 40%;
+  padding: 10px;
+  border-radius: 5%;
+}
+
+/*Texte sous bannière*/
+
+.texte_sous {
+	position: relative;
+	background-color: #DBDBDB;
+	text-align: center;
+	vertical-align: middle;
+	border: 2px solid #46ABE2;
+	opacity: 1;
+	margin-left: auto;
+	top: 30%;
+	width: 30%;
+	display: inline-block;
+	border-radius: 5%;
+	margin-left: 10px;
+	padding: 10px;
+}
+
+/*Banières */
+
+.voyage-box {
+	background-image: url("http://www.france5.fr/emissions/sites/default/files/images/2015/01/03/voyages-organises11.jpg");
+	background-size: cover;
+	position: relative;
+	margin: auto;
+	height: 600px;
+	width: 100%;
+}
+
+.sport-box {
+	background-image: url("images/football-sport.jpg");
+	background-size: cover;
+	position: relative;
+	margin: auto;
+	height: 600px;
+	width: 100%;
+}
+
+/*Contenu voyage*/
+
+.espace {
+	height: 400px;
+}
+
+/*Banière sport*/
+
+#sport-texte {
+	position: relative;
+	text-align: center;
+	background-color: white;
+	opacity: 0.7;
+	margin-left: 850px;
+	top: 10%;
+	width: 30%;
+}
+
+.espace3 {
+	height: 500px;
+}
+
+/*Banière jeux*/
+
+.jeux-box {
+	background-image: url("http://www.axellesdigital.fr/blog/wp-content/uploads/2015/05/o-JEUX-VIDEO-facebook.jpg");
+	background-size: cover;
+	position: relative;
+	margin: auto;
+	height: 600px;
+	width: 100%;
+}
+
+/*container*/
+
+.container {
+	margin: auto 300px;
+	background-color: white;
+}
+
+#footer {
+
+}
