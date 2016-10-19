@@ -6,21 +6,6 @@
 	*/
 }
 
-body{
-	background-image: url("images/black.jpg");
-}
-
-ul li {
-	background-color: #46ABE2;
-	letter-spacing: 2px;
-	display: inline-block;
-	text-transform: uppercase;
-	color: white;
-	margin: auto;
-	padding: 5px 83px;
-	font-size: 30px;
-}
-
 @media (max-width:320px) {  /*small mobile*/
   h1 {
     font-size: 5px;
@@ -42,6 +27,22 @@ ul li {
   }
 }
 
+body {
+	background-image: url("images/black.jpg");
+	background-attachment:fixed;
+}
+
+ul li {
+	background-color: #46ABE2;
+	letter-spacing: 2px;
+	display: inline-block;
+	text-transform: uppercase;
+	color: white;
+	margin: auto;
+	padding: 5px 83px;
+	font-size: 30px;
+}
+
 h2 {
 	padding-left: 80px;
 }
@@ -57,10 +58,6 @@ a:hover {
 
 .navigation {
 	margin-left: 260px;
-}
-
-#espace {
-	height: 30px;
 }
 
 /*Page de présentation*/
@@ -111,6 +108,12 @@ a:hover {
 	font-style: bold;
 }
 
+/* Espace entre section*/
+
+.espace {
+	height: 400px;
+}
+
 /*Texte bannière*/
 
 .texte_banniere {
@@ -142,11 +145,6 @@ a:hover {
 	padding: 10px;
 }
 
-
-.espace {
-	height: 400px;
-}
-
 /*Bannières */
 
 /*Bannières voyage*/
@@ -160,7 +158,6 @@ a:hover {
 	width: 100%;
 }
 
-
 /*Bannière sport*/
 
 .sport-box {
@@ -171,7 +168,6 @@ a:hover {
 	height: 600px;
 	width: 100%;
 }
-
 
 /*Bannière jeux*/
 
@@ -202,8 +198,10 @@ a:hover {
 	background-color: white;
 }
 
+/*footer*/
+
 #footer {
 	height: 50px;
-	display: center;
+	position: center;
 	background-color: #46ABE2; 
 }
