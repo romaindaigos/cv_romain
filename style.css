@@ -13,22 +13,22 @@ body {
 
 @media (max-width:320px) {  /*small mobile*/
   h1 {
-    font-size: 30px;
+    font-size: 40px;
   }
 }
 @media (min-width:321px) and (max-width:959px) {  /*tablet*/
 	h1 {
-    font-size: 30px;
+    font-size: 50px;
   }
 }
 @media (min-width:960px) and (max-width:1599px) {  /*desktop*/
 	h1 {
-    font-size: 45px;
+    font-size: 65px;
   }
 }
 @media (min-width:1600px) {  /*desktop and tv*/
 	h1 {
-    font-size: 45px;
+    font-size: 60px;
   }
 }
 
@@ -46,18 +46,41 @@ body {
 }
 @media (min-width:960px) and (max-width:1599px) {  /*desktop*/
 	h2 {
-    font-size: 40px;
+    font-size: 50px;
   }
 }
 @media (min-width:1600px) {  /*desktop and tv*/
 	h2 {
-    font-size: 40px;
+    font-size: 50px;
+  }
+}
+
+@media (max-width:320px) {  /*small mobile*/
+	h2.texte_banniere {
+    font-size: 20px;
+  }
+}
+
+@media (min-width:321px) and (max-width:959px) {  /*tablet*/
+	h2.texte_banniere {
+    font-size: 50px;
+  }
+}
+@media (min-width:960px) and (max-width:1599px) {  /*desktop*/
+	h2.texte_banniere {
+    font-size: 80px;
+  }
+}
+@media (min-width:1600px) {  /*desktop and tv*/
+	h2.texte_banniere {
+    font-size: 100px;
   }
 }
 
 
+
 @media (max-width:320px) {  /*small mobile*/
-  h3 {
+	h3  {
     font-size: 25px;
   }
 }
@@ -77,7 +100,31 @@ body {
   }
 }
 
-.nav {
+@media (max-width:320px) {  /*small mobile*/
+	p {
+    font-size: 10px;
+  }
+}
+@media (min-width:321px) and (max-width:959px) {  /*tablet*/
+	p {
+    font-size: 15px;
+  }
+}
+@media (min-width:960px) and (max-width:1599px) {  /*desktop*/
+	p {
+    font-size: 20px;
+  }
+}
+@media (min-width:1600px) {  /*desktop and tv*/
+	p {
+    font-size: 20px;
+  }
+}
+
+
+
+
+.navbar {
 	color: white;
 	background-color: #46ABE2;
 	border: 1px solid white;
@@ -88,17 +135,21 @@ a {
 	color : white;
 }
 
+h3 {
+	text-align: center;
+	font-size: 40px;
+}
+
+
+
 /*Page de présentation*/
 
-.presentation {
-	background-color: white;
-	margin: 50px 0;
-}
 
 .prenom {
 	padding-left: 20px;
 	padding-top: 50px;
 	font-style: bold;
+	margin-left: 20px;
 }
 
 #inside {
@@ -111,8 +162,10 @@ a {
 .contact_box{
 	border-radius: 100%;
 	background-color: #46ABE2;
-	margin-top: 5em;
-	padding: 30px;
+	height: 230px;
+	width: 230px;
+	margin-left: 80px;
+	margin-top: 1%;
 }
 
 .contact_box:hover {
@@ -122,12 +175,14 @@ a {
 
 #contact{
 	color: white;
+	padding-top: 50px;
 }
 
 #contact-mail{
 	font-size: 13px;
+	position: relative;
 	color: #46ABE2;
-	margin-bottom: 3em;
+	margin-bottom: 20px;
 	margin-right: 1em;
 }
 
@@ -135,28 +190,54 @@ a {
 /* Espace entre section*/
 
 .espace {
-	height: 100px;
+	height: 150px;
 }
 
 /*Texte bannière*/
 
 .texte_banniere {
   position: relative;
-  text-align: center;
-  background-color: white;
-  opacity: 0.6;
-  font-size: 60px;
-  padding: 50px 0;
+  text-align: left;
+  color: white;
+  font-family: 'Russo One', sans-serif;
+  font-size: 100px;
 }
+
+.texte_banniere2 {
+  padding: 1%;
+  position: relative;
+  text-align: left;
+  margin-top: 15%;
+  margin-left: 5%;
+  margin-bottom: 5%;
+  text-align: justify;
+  background-color: rgba(255, 255, 255, 0.6);
+  color: black;
+  border-radius: 5%;
+}
+
 
 /*Texte sous bannière*/
 
 .texte_sous {
 	background-color: #46ABE2;
+	border: 1px solid white;
 	color: white;
-	text-align: center;
+	text-align: middle;
 	vertical-align: middle;
-	padding: 20px;
+	padding: 20px 35px;
+	text-align: justify;
+}
+
+.texte_sous2 {
+	background-color: #46ABE2;
+	border: 1px solid white;
+	margin-top: 15%;
+	color: white;
+	text-align: middle;
+	vertical-align: middle;
+	padding: 20px 35px;
+	text-align: justify;
 }
 
 /*Bannières */
@@ -164,30 +245,25 @@ a {
 /*Bannières voyage*/
 
 .voyage-box {
-	background-image: url("images/voyages3.jpg");
+	background-image: url("images/voyages5.jpg");
 	background-repeat: no-repeat;
-	height: 500px;
+	background-size: cover;
 }
 
 /*Bannière sport*/
 
 .sport-box {
-	background-image: url("images/football-sport.jpg");
+	background-image: url("images/sport2.jpg");
+	background-repeat: no-repeat;
 	background-size: cover;
-	position: relative;
-	margin: auto;
-	height: 500px;
 }
 
 /*Bannière jeux*/
 
 .jeux-box {
-	background-image: url("http://www.axellesdigital.fr/blog/wp-content/uploads/2015/05/o-JEUX-VIDEO-facebook.jpg");
+	background-image: url("images/jeux2.jpg");
+	background-repeat: no-repeat;
 	background-size: cover;
-	position: relative;
-	margin: auto;
-	height: 600px;
-	width: 100%;
 }
 
 /*Bannière inspiration*/
@@ -195,10 +271,13 @@ a {
 .inspiration-box {
 	background-image: url("images/inspiration.jpg");
 	background-size: cover;
-	position: relative;
-	margin: auto;
-	height: 600px;
-	width: 100%;
+	position: cover;
+}
+
+.btn-primary {
+	color: white;
+	background-color: #46ABE2;
+	font-family: Julius Sans One, sans-serif;
 }
 
 
@@ -207,5 +286,5 @@ a {
 #footer {
 	height: 50px;
 	position: center;
-	background-color: #46ABE2; 
+	background-color: #e7e7e7; 
 }
