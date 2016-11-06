@@ -102,12 +102,12 @@ body {
 
 @media (max-width:320px) {  /*small mobile*/
 	p {
-    font-size: 10px;
+    font-size: 15px;
   }
 }
 @media (min-width:321px) and (max-width:959px) {  /*tablet*/
 	p {
-    font-size: 15px;
+    font-size: 20px;
   }
 }
 @media (min-width:960px) and (max-width:1599px) {  /*desktop*/
@@ -121,9 +121,18 @@ body {
   }
 }
 
+li {
+	margin-left: 50px;
+	padding-right: 50px;
+	font-size: 100px;
+	border-right: 2px solid white;
+}
 
+.navbar-collapse {
+	margin-left: 20px;
+	font-size: 100px;
 
-
+}
 .navbar {
 	color: white;
 	background-color: #46ABE2;
@@ -162,8 +171,8 @@ h3 {
 .contact_box{
 	border-radius: 100%;
 	background-color: #46ABE2;
-	height: 230px;
-	width: 230px;
+	height: 200px;
+	width: 200px;
 	margin-left: 80px;
 	margin-top: 1%;
 }
@@ -179,18 +188,18 @@ h3 {
 }
 
 #contact-mail{
-	font-size: 13px;
+	font-size: 10px;
 	position: relative;
 	color: #46ABE2;
 	margin-bottom: 20px;
-	margin-right: 1em;
+	margin-right: 2em;
 }
 
 
 /* Espace entre section*/
 
 .espace {
-	height: 150px;
+	height: 200px;
 }
 
 /*Texte bannière*/
@@ -261,7 +270,7 @@ h3 {
 /*Bannière jeux*/
 
 .jeux-box {
-	background-image: url("images/jeux2.jpg");
+	background-image: url("images/jeux3.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
 }
@@ -269,7 +278,7 @@ h3 {
 /*Bannière inspiration*/
 
 .inspiration-box {
-	background-image: url("images/inspiration.jpg");
+	background-image: url("images/inspiration2.jpg");
 	background-size: cover;
 	position: cover;
 }
